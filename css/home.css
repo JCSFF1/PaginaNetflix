@@ -97,12 +97,24 @@ p{
 }
 #play{
     width: 70px;
+    height: 40px;
     margin-right: 10px;
 }
 .informações{
+    display: flex;
     width: 350px;
     height: 70px;
+    border-radius: 10px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgba(106, 94, 90, 0.582);
+    color: aliceblue;
 }
 #inf{
-    width: 70px;
+    height: 40px;
+    margin-right: 15px;
+    
 }
