@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+body{
+    background-image: url("../imagens/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    background: rgb(0,1,1);
+    background: linear-gradient(180deg, rgba(0,1,1,0.8295693277310925) 0%, rgba(0,1,1,0.4962359943977591) 100%);
+}
+header img{
+    width: 150px;
+    padding: 10px;
+}
+.esquerda{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    list-style-type: none;
+    color: aliceblue;
+    font-size: 20px;
+    margin: -8px 0 0 -30px;
+}
+.direita{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.direita img{
+    width: 40px;
+    height: 40px;
+}
+#avatar{
+    width: 50px;
+    height: 50px;
+}
+.resumo{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(6, 7, 8);
+}
+.resumo img{
+    height: 80px;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+}
+h1{
+    font-size: 150px;
+    color: rgb(162,34,71);
+}
+h2{
+    font-size: 100px;
+    color: rgb(4,53,196);
+}
+p{
+    width: 800px;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: 600;
+}
+.botao{
+    display: flex;
+    width: 750px;
+    justify-content: space-around;
+}
+.assistir{
+    display: flex;
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+#play{
+    width: 70px;
+    margin-right: 10px;
+}
+.informações{
+    width: 350px;
+    height: 70px;
+}
+#inf{
+    width: 70px;
+}

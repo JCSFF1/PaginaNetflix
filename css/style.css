@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+body{
+    background-image: url("imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+:root{
+    --cor-botao: #E62213;
+    --cor-input: #333333;
+    --cor-textodestaque: #fff;
+    --cor-textosecundario: #595959;
+    --cor-boxdesktop: rgba(0,0,0,0.6);
+    --cor-assine: #B3B3B3;
+    --cor-botaoseletor: #1168D0;
+}
+header img{
+    width: 10rem;
+    margin: 1.2rem 0rem 0rem 1.8rem;
+}
+main{
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.box-principal{
+    background-color: var(--cor-boxdesktop);
+    width: 485px;
+    padding: 60px 68px 60px;
+}
+h1{
+    color: var(--cor-textodestaque);
+    margin-bottom: 1.5rem;
+}
+.login{
+    margin-bottom: 1.5rem;
+}
+.login input{
+    background-color: var(--cor-input);
+    padding: 1rem;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 0.9rem;
+}
+button{
+    background-color: var(--cor-botao);
+    padding: 1rem;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 0.9rem;
+    color: var(--cor-textodestaque);
+    font-size: 1em;
+    font-weight: bold;
+}
+.help{
+    display: flex;
+    justify-content: space-between;
+}
+.help div{
+    display: flex;
+}
+.help div input{
+    margin-right: 0.4rem;
+}
+.help div p{
+    color: var(--cor-textodestaque);
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+.help a{
+    color: var(--cor-textodestaque);
+    font-size: 0.9em;
+}
+.textos p{
+    color: var(--cor-textodestaque);
+    margin-top: 1.2rem;
+    font-size: 0.8em;
+}
+.textos .assine {
+    font-weight: bold;
+    color: var(--cor-assine);
+    font-size: 1.2em;
+}
+.textos .saiba{
+    color: var(--cor-botaoseletor);
+}
+@media (max-width: 425px){
+  body{
+    background-image: none;
+    background-color: black;   
+  }
+}

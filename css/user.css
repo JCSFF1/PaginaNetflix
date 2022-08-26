@@ -1,0 +1,69 @@
+:root{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+	body{
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+    	padding: 0;
+    	box-sizing: border-box;
+    	font-family: Helvetica, sans-serif;
+		background-color: #00002e;
+	}
+	header.topo{
+		width: 10rem;
+    	margin: 1.2rem 0rem 0rem 1.8rem;
+	}
+	header.topo img{
+		width: 220px;
+	}
+	h2{
+		color: aliceblue;
+		font-size: 2rem;
+	}
+	button{
+		background-color: #00002e;
+		padding: 1rem;
+		width: 300px;
+		border: none;
+		border: solid aliceblue;
+		margin-bottom: 0.9rem;
+		color:aliceblue;
+		font-size: 1em;
+		font-weight: bold;
+	}
+	div.pg-home{
+		display: flex;
+    	justify-content: center;
+	}
+	section{
+		display: flex;
+    	flex-direction: column;
+    	flex-wrap: wrap;
+		align-items: inherit;
+		text-align: center;
+		justify-items: center;
+	}
+	ul{
+		width: 1064px;
+		display: flex;
+		justify-content: space-between;
+		margin: 20px 0 0 0;
+		padding: 0;
+	}
+	ul li {
+		color: aliceblue;
+		list-style: none;
+	}
+	ul li img{
+		width: 186px;
+	}
+	figcaption{
+		display: none;
+	}
+	footer{
+		margin: 40px;
+	}
