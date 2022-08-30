@@ -25,12 +25,13 @@ header img{
 main{
     width: max-content;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 .box-principal{
     background-color: var(--cor-boxdesktop);
     width: 485px;
     padding: 60px 68px 60px;
+    margin-bottom: 30px;
 }
 h1{
     color: var(--cor-textodestaque);
