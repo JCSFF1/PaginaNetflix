@@ -16,11 +16,12 @@
     <main>
         <div class="box-principal">
             <h1>Entrar</h1>
-            <div class="login">
-                <input type="text" name="email" placeholder="Email ou número de telefone">
-                <input type="password" name="senha" placeholder="Senha">
-            </div>
-            <button>Entrar</button>
+            <form action="/user.html" type="submit">
+                <div class="login">
+                    <input type="text" name="email" placeholder="Email ou número de telefone" required>
+                    <input type="password" name="senha" placeholder="Senha" required>
+                </div><button type="submit">Entrar</button>
+            </form>
             <div class="help">
                 <div>
                 <input type="checkbox" title="a" placeholder=" ">

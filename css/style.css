@@ -5,7 +5,7 @@
     font-family: Helvetica, sans-serif;
 }
 body{
-    background-image: url("imagens/fundo.jpg");
+    background-image: url("../imagens/fundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;   
 }
@@ -20,7 +20,7 @@ body{
 }
 header img{
     width: 10rem;
-    margin: 1.2rem 0rem 0rem 1.8rem;
+	margin: 14px 0 0 36px;
 }
 main{
     width: max-content;
