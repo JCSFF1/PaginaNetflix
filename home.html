@@ -8,58 +8,94 @@
     <title>UltimaFlix-Home</title>
 </head>
 <body>
-    <header>
-        <figure>
-            <img class="logo" src="imagens/logo.png" alt="UltimaFlix">
-        </figure>
-        <ul class="esquerda">    
-            <li>Início</li>
-            <li>Séries</li>
-            <li>Filmes</li>
-            <li>Bombando</li>
-            <li>Minha Lista</li>
-            <li>Navegar por Idiomas</li>
-        </ul>
-        <ul class="direita">    
-            <li>
-                <figure>
-                    <img src="imagens/lupa.png" alt="Buscar">
-                </figure>
-            </li>    
-            <li>Infantil</li>
-            <li>
-                <figure>
-                    <img src="imagens/sino.png" alt="Novidades">
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img id="avatar" src="imagens/avatar2.png" alt="Fábio">
-                </figure>
-            </li>
-        </ul>
-    </header>
-    <main>
-        <div class="resumo">
+    <div id="imagemfundo">
+        <header>
             <figure>
-                <img src="imagens/Logo-Ultima.png" alt="Logo-Ultima">
+                <img class="logo" src="imagens/logo.png" alt="UltimaFlix">
             </figure>
-            <p>FILME</p>
+            <ul class="esquerda">    
+                <li>Início</li>
+                <li>Séries</li>
+                <li>Filmes</li>
+                <li>Bombando</li>
+                <li>Minha Lista</li>
+                <li>Navegar por Idiomas</li>
+            </ul>
+            <ul class="direita">    
+                <li>
+                    <figure>
+                        <img src="imagens/lupa.png" alt="Buscar">
+                    </figure>
+                </li>    
+                <li>Infantil</li>
+                <li>
+                    <figure>
+                        <img src="imagens/sino.png" alt="Novidades">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img id="avatar" src="imagens/avatar2.png" alt="Fábio">
+                    </figure>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <div class="inicio">
+                <div class="resumo">
+                    <figure>
+                        <img src="imagens/Logo-Ultima.png" alt="Logo-Ultima">
+                    </figure>
+                    <p id="tipo">FILME</p>
+                </div>
+                <div class="titulo">
+                    <h1>Thor</h1>
+                    <h2>Amor e Trovão</h2>
+                </div> 
+            </div>   
+            <p id="descricao">O filme apresenta Thor em uma jornada diferente de tudo que ele já enfrentou – uma busca pela paz interior. Mas sua aposentadoria é interrompida por um assassino galático que busca a extinção dos deuses.</p>
+            <div class="botao">
+                <button type="button" class="assistir">
+                    <img id="play" src="imagens/play.png" alt="Assistir">
+                    Assistir
+                </button>
+                <button type="button" class="informações">
+                    <img id="inf" src="imagens/informações.png" alt="Mais Informações">
+                    Mais Informações
+                </button>
+            </div>
         </div>
-        <div class="titulo">
-            <h1>Thor</h1>
-            <h2>Amor e Trovão</h2>
-        </div>    
-        <p>O filme apresenta Thor em uma jornada diferente de tudo que ele já enfrentou – uma busca pela paz interior. Mas sua aposentadoria é interrompida por um assassino galático conhecido como Gorr, o Carniceiro dos Deuses, que busca a extinção dos deuses. Para combater a ameaça, Thor pede a ajuda do Rei Valquíria, Korg e da ex-namorada Jane Foster, que – para surpresa de Thor – inexplicavelmente carrega seu martelo mágico, Mjolnir, como a Poderosa Thor. Juntos, eles embarcam em uma alucinante aventura para descobrir o mistério da vingança do Carniceiro dos Deuses e detê-lo antes que seja tarde demais.</p>
-        <div class="botao">
-            <button type="button" class="assistir">
-                <img id="play" src="imagens/play.png" alt="Assistir">
-                Assistir
-            </button>
-            <button type="button" class="informações">
-                <img id="inf" src="imagens/informações.png" alt="Mais Informações">
-                Mais Informações
-            </button>
+        <div>
+            <p id="listafilme">Filmes da Marvel</p>
+            <div>
+                <ul class="lista1">
+                    <li><img class="baners" src="imagens/vingadores.png" alt="Vingadores"></li>
+                    <li><img class="baners"src="imagens/homem-aranha-3.png" alt="Homem Aranha 3"></li>
+                    <li><img class="baners"src="imagens/hulk.png" alt="Hulk"></li>
+                    <li><img class="baners"src="imagens/supergirl.png" alt="Supergirl"></li>
+                    <li><img class="baners"src="imagens/homem-aranha.png" alt="Homem Aranha"></li>
+                </ul>
+            </div>
+            <div>
+                <p id="listafilme">Para as Crianças</p>
+                <ul class="lista2">
+                    <li><img class="baners"src="imagens/croods.png" alt="Croods"></li>
+                    <li><img class="baners"src="imagens/emoji.png" alt="Emoji"></li>
+                    <li><img class="baners"src="imagens/hotel-transilvania.png" alt="Hotel Transilvania"></li>
+                    <li><img class="baners"src="imagens/pets.png" alt="Pets"></li>
+                    <li><img class="baners"src="imagens/turbo.png" alt="Turbo"></li>
+                </ul>
+            </div>
+            <div>
+                <p id="listafilme">Filmes de Hollywood</p>
+                <ul class="lista3">
+                    <li><img class="baners"src="imagens/gladiador.png" alt="Gladiador"></li>
+                    <li><img class="baners"src="imagens/homem-entre-gigantes.png" alt="Um Homem entre Gigantes"></li>
+                    <li><img class="baners"src="imagens/regresso.png" alt="Regresso"></li>
+                    <li><img class="baners"src="imagens/procura-felicidade.png" alt="A Procura da Felicidade"></li>
+                    <li><img class="baners"src="imagens/soldado-ryan.png" alt="O Resgate do Soldado Ryan"></li>
+                </ul>
+            </div>
         </div>
     </main>
 </body>
